@@ -1,0 +1,27 @@
+.head
+  .lang 
+    .container 
+      button RU
+      button UZB
+  .head__main 
+    .container
+      a(href="index.html").head__logo IMPERIA
+      ul.head__link
+        li: a(href="index.html") Главная
+        li: a(href="product.html") О нас
+        li: a(href="category.html") Категории
+        li: a(href="#") Сотрудничество
+      .head__reg 
+        button.sign Войти
+        button.reg.active Зарегестрироваться
+      button.head__korzina 
+        <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 28a2.667 2.667 0 100-5.333A2.667 2.667 0 0012 28zm10.667 0a2.667 2.667 0 100-5.333 2.667 2.667 0 000 5.333z" stroke="#0D0D0D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 4h2.667l2.666 16a4 4 0 004 2.667h9.334a4 4 0 004-2.667L28 10.667H7.733" stroke="#0D0D0D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+.head__mobile 
+  button.bars 
+    span 
+  a(href="index.html").head__mobile--logo 
+    img(src="assets/img/logo.png", alt="")      
+  .head__poisk 
+    button.poisk
+      img(src="assets/img/poisk.png", alt="")
+    input(type="text" placeholder="search...")

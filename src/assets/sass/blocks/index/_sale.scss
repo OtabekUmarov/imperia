@@ -1,0 +1,22 @@
+.sale {
+  background-color: #e5e5e5;
+  margin-top: 48px;
+  padding-bottom: 80px;
+  &__wrap {
+    padding: 173px;
+    background-color: $yellow;
+  }
+  &__text {
+    max-width: 666px;
+    margin: auto;
+    color: $black;
+    text-align: center;
+    font-size: 34px;
+    line-height: 140%;
+    font-family: 'm-b';
+    span {
+      font-size: 60px;
+      font-family: 'm-b';
+    }
+  }
+}

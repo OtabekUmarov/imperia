@@ -1,0 +1,29 @@
+.section {
+  background-image: url(../img/pict1.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-color: #fff;
+  margin-top: 64px;
+  overflow-x: hidden;
+  .title {
+    text-align: left;
+  }
+  .second {
+    padding: 101px 15px;
+    background-color: #fff;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.44px;
+    margin-bottom: 24px;
+  }
+  &__btn {
+    padding: 8px 24px;
+    border-radius: 6px;
+    background-color: $yellow;
+    border: 0;
+    font-size: 14px;
+    font-family: 'm-sb';
+  }
+}

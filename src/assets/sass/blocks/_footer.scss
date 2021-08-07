@@ -1,0 +1,27 @@
+.footer {
+  background-color: #fff;
+  color: black;
+  padding-top: 46px;
+  padding-bottom: 59px;
+  &__title {
+    font-size: 14px;
+    font-family: 'm-sb';
+    line-height: 140%;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+  }
+  &__item {
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.25px;
+    margin-bottom: 10px;
+    display: block;
+    &.mb {
+      margin-bottom: 38px;
+    }
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}

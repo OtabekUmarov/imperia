@@ -1,0 +1,51 @@
+.product.splide 
+  .container
+    .splide__track 
+      .title Наши преимущества
+      .box.splidee
+        .splide__track
+          .splide__list
+            .item.splide__slide 
+              img(src="assets/img/stars.png", alt="")
+              .text Лучший сервис
+            .item.splide__slide 
+              img(src="assets/img/car.png", alt="")
+              .text Экспресс доставка 
+            .item.splide__slide 
+              img(src="assets/img/like.png", alt="")
+              .text Лучшее качество в стране
+      .title Лучшие товары
+      .row.product__list.splide__list 
+        +product
+        +product('card2.jpg')
+        +product('card3.jpg')
+        +product('card4.jpg')
+        +product('card3.jpg')
+        +product('card4.jpg')
+        +product('card3.jpg')
+        +product('card4.jpg')
+.category.splide 
+  .container
+    .splide__track 
+      .title Категории
+      .category__lists.row.splide__list
+        .col-3.col-md-6.splide__slide
+          .category__list
+            .category__img 
+              img(src="assets/img/img1.jpg", alt="")
+            .category__name Женская обувь
+        .col-3.col-md-6.splide__slide
+          .category__list
+            .category__img 
+              img(src="assets/img/img2.jpg", alt="")
+            .category__name Женская сумка
+        .col-3.col-md-6.splide__slide
+          .category__list
+            .category__img 
+              img(src="assets/img/img3.jpg", alt="")
+            .category__name Женская шапка
+        .col-3.col-md-6.splide__slide
+          .category__list
+            .category__img 
+              img(src="assets/img/img1.jpg", alt="")
+            .category__name Женская обувь

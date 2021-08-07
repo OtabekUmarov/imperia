@@ -1,0 +1,78 @@
+.head {
+  .lang {
+    background-color: #0D0D0D;
+    padding: 13px 0;
+    button {
+      font-size: 10px;
+      font-family: 'm-b';
+      background-color: unset;
+      border: 0;
+      color: #fff;
+      &:last-child{
+        opacity: 0.3;
+        margin-left: 8px;
+      }
+    }
+    .container {
+      background-color: #0D0D0D;
+    }
+  }
+  &__main {
+    padding: 20px 0;
+    background-color: #FAFAFA;
+    box-shadow: 0px 8px 22px -6px rgba(24, 39, 75, 0.12), 0px 14px 64px -4px rgba(24, 39, 75, 0.12);
+    .container {
+      background-color: #FAFAFA;
+      display: flex;
+      width: 100%;
+      align-items: center;
+    }
+  }
+  &__logo {
+    color: #0D0D0D;
+    font-size: 23px;
+    font-family: 'm-b';
+    margin-right: 84px;
+    letter-spacing: 0.4px;
+  }
+  &__reg {
+    margin-left: auto;
+    button {
+      background-color: $grey;
+      font-size: 16px;
+      font-family: 'm-r';
+      border: 0;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: 0.3s;
+      &:first-child{
+        margin-right: 24px;
+      }
+      &:hover,
+      &.active {
+        background-color: $yellow;
+      }
+    }
+  }
+  &__link {
+    li {
+      a {
+        font-size: 14px;
+        font-family: 'm-m';
+        margin-right: 24px;
+        transition: 0.3s;
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
+  }
+  &__korzina {
+    background-color: unset;
+    border: 0;
+    margin-left: 40px;
+  }
+  &__mobile {
+    display: none;
+  }
+}

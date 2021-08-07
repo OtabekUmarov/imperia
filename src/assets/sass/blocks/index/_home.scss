@@ -1,0 +1,45 @@
+.home {
+  max-width: 100vw;
+  height: 588px;
+  padding: 200px 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__main {
+    // padding-top: 30px;
+    position: relative;
+    &2 {
+      display: none;
+    }
+  }
+  &__title {
+    width: 588px;
+    line-height: 48px;
+    margin-bottom: 16px;
+    font-size: 34px;
+    font-family: 'm-b';
+  }
+  &__text {
+    font-size: 14px;
+    font-family: 'm-m';
+    max-width: 588px;
+    line-height: 19px;
+    margin-bottom: 24px;
+  }
+  &__link {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'm-sb';
+    display: flex;
+    align-items: center;
+    &::before {
+      content: "";
+      display: inline-block;
+      border: 5px solid #fff;
+      margin-right: 3px;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+    }
+  }
+}
